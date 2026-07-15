@@ -40,10 +40,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -176,7 +172,6 @@ footer {
 
 .socialmedia a {
     margin: 10px;
-
 }
 
 .socialmedia img {
