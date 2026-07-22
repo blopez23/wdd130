@@ -89,7 +89,7 @@ header {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
+
     background-color: var(--primary-color);
 }
 
@@ -180,4 +180,103 @@ footer {
 .socialmedia img {
     width: 32px;
     height: 32px;
+}
+
+.contactinfo {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contactinfo p {
+    line-height: 2;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.map iframe {
+    border: 0;
+    border-radius: 8px;
+}
+
+.employees {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.employees h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.employeegallery {
+    display: flex;
+    justify-content: center;
+}
+
+.employeegallery figure {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.employeegallery img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+form {
+    width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--secondary-color);
+    border: 1px solid #cdcbcb;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.radio-option,
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.radio-option label,
+.checkbox label {
+    display: inline;
+    margin: 0 0 0 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
 }
